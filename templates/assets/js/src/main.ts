@@ -8,6 +8,6 @@ new Vue({
     HomeForm,
   },
   data: {
-    name: 'tetty',
+    name: 'vue_tetty',
   },
 }).$mount('#app');
