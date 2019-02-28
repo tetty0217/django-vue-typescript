@@ -1,4 +1,11 @@
 {% extends 'layout.html' %}
 {% block content %}
-    <hello-world/>
+    <div class="home">
+        <h1 class="home__title">context name by Django template tag</h1>
+        <p class="home__text">name: "{{ name }}"</p>
+        <h1 class="home__title">data name by Vue data</h1>
+        <p class="home__text">name: "{{ name }}"</p>
+        <h1 class="home__title">Vuex action and state in component</h1>
+        <hello-world/>
+    </div>
 {% endblock %}
