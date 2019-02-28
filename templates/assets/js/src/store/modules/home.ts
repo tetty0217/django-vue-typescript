@@ -10,7 +10,7 @@ export interface HomeState {
 class HomeModule extends VuexModule implements HomeState {
 
   public msg: string = '';
-  public ellipsis: string = '...';
+  private ellipsis: string = '...';
 
   @Mutation
   public SET_INPUT_TEXT(text: string): void {
