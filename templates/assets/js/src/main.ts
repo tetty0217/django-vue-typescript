@@ -1,12 +1,11 @@
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import HomeForm from './components/HomeForm.vue';
 
 Vue.config.productionTip = false;
 
 new Vue({
-  // delimiters: ["<<",">>"],
   components: {
-    HelloWorld,
+    HomeForm,
   },
   data: {
     name: 'tetty',

@@ -11,7 +11,7 @@
   import {homeModule} from '../store/modules/home';
 
   @Component
-  export default class HelloWorld extends Vue {
+  export default class HomeForm extends Vue {
 
     private current: string = '';
 
